@@ -1,0 +1,49 @@
+.wrapper{
+    position: relative
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background: #fff;
+}
+.tab{
+    width: 1060px;
+    margin: 0 auto;
+}
+.tableft{
+    width: 100px;
+    height: 120px;
+    background: #1956E6;
+    float: left
+}
+.logo_web{
+    width: 78px;
+    height: 22px;
+    margin: 25px auto 15px 10px;
+}
+.text{
+    color: #fff;
+    width: 50px;
+    margin: 0 0 0 10px;
+    border-top: 1px solid #fff;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.tabright{
+    float: right;
+    padding-top: 20px;
+}
+.tabright a{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999;
+}
+.main{
+    width: 100%;
+    background: #F4F4F4;
+}
+.content{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
