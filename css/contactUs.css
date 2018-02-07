@@ -1,0 +1,170 @@
+.wrapper{
+    position: relative
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background: #fff;
+}
+.tab{
+    width: 1060px;
+    margin: 0 auto;
+}
+.tableft{
+    width: 100px;
+    height: 120px;
+    background: #1956E6;
+    float: left
+}
+.logo_web{
+    width: 78px;
+    height: 22px;
+    margin: 25px auto 15px 10px;
+}
+.text{
+    color: #fff;
+    width: 50px;
+    margin: 0 0 0 10px;
+    border-top: 1px solid #fff;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.tabright{
+    float: right;
+    padding-top: 20px;
+}
+.tabright a{
+    padding: 0 10px;
+    font-size: 14px;
+    color: #999;
+}
+.main{
+    width: 100%;
+    background: #F4F4F4;
+}
+.content{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+.title{
+    font-size: 24px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+    padding-bottom: 5px;
+}
+.title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: #1956E6;
+}
+.img_text{
+    width: 100%;
+    height: 616px;
+    padding-top: 30px;
+}
+.img_text img{
+    width: 100%;
+    height: 298px;
+    display: block
+}
+.img_text_bottom{
+    background: #fff;
+    padding-bottom: 50px;
+    
+}
+.foundation{
+    line-height: 100px;
+    font-size: 32px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 30px;
+}
+.info{
+    margin: 20px 0 0px 30px;
+}
+.info li{
+    margin-bottom: 15px;
+}
+.info img{
+    width: 18px;
+    height: 18px;
+    float: left;
+    display: inline-block;
+    margin-top: 4px;
+}
+.info span{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.footer{
+    width: 100%;
+    height: 318px;
+    /* position: absolute;
+    left: 0;
+    bottom: 0; */
+}
+.footer_top{
+    width: 100%;
+    height: 208px;
+    background-image: url(../image/five.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer_top img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.footer_bottom{
+    width: 100%;
+    height: 60px;
+    background: #000;
+}
+.footer_top p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.footer_top div{
+    font-size: 14px;
+}
+.con{
+    line-height: 26px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    background: #1956E6;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.footer_bottom_left{
+    float: left;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.footer_bottom_left img{
+    width: 68px;
+    height: 20px;
+}
+.footer_bottom_left span{
+    color: #fff;
+    font-size: 12px;
+}
+.footer_bottom_right{
+    float: right;
+    padding: 20px 150px 0 0;
+}
+.footer_bottom_right li{
+    display: inline-block;
+    padding-right: 15px;
+
+}
