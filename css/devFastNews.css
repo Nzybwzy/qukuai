@@ -1,0 +1,50 @@
+.title{
+    font-size: 24px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+    padding-bottom: 5px;
+}
+.title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: #1956E6;
+}
+.dev_text{
+    padding: 40px;
+    background: #fff;
+    margin-top: 40px;
+}
+.dev_text h1{
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+.dev_time{
+    font-size: 18px;
+    line-height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 32px;
+}
+.dev_info{
+    line-height: 36px;
+    font-size: 18px;
+}
+.dev_info span{
+    margin: 30px 0;
+    display: block
+}
+.dev_item{
+    font-size: 18px;
+}
+.dev_item img{
+    width: 100%;
+    height: 606px;
+    margin: 20px 0 40px 0;
+}
+.dev_item div{
+    line-height: 36px;
+    margin-bottom: 40px;
+}

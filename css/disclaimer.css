@@ -1,0 +1,28 @@
+.title{
+    font-size: 24px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: #1956E6;
+}
+.distext{
+    padding:  20px 40px 20px 40px;
+    background: #fff;
+}
+.distext p{
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+    line-height: 36px;
+}
+.mar{
+    margin-top: 70px;
+}
