@@ -1,0 +1,56 @@
+.title{
+    font-size: 24px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+.title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: #1956E6;
+}
+.white_list_item{
+    width: 340px;
+    background: #fff;
+    float: left;
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 274px;
+}
+.white_list_mar{
+    margin-right: 20px;
+}
+.white_list_item_desc{
+    text-align: center
+}
+.white_list_item_desc img{
+    width: 36px;
+    height: 48px;
+    margin: 40px 0 30px 0;
+}
+.white_list_item_tit{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.white_list_item_time{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.white_list_btn{
+    color: #fff;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #1956E6;
+    cursor: pointer;
+    margin-bottom: 10px;
+    z-index: 999;
+    margin: 0 auto;
+    font-size: 12px;
+}
