@@ -65,6 +65,7 @@
     position: absolute;
     left: 50%;
     top: 23px;
+    z-index: 999
 }
 .swiper_desc{
     width: 500px;
@@ -75,6 +76,7 @@
     position: absolute;
     left: 50%;
     top: 115px;
+    z-index: 999
 }
 .zero{
     width: 1060px;
