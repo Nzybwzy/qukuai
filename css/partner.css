@@ -1,0 +1,37 @@
+.title{
+    font-size: 24px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+.title:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: #1956E6;
+}
+.titlemar{
+    margin-top: 75px;
+}
+.part_info{
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.part_img_box{
+    height: 120px;
+    background: #fff;
+    padding: 40px;
+}
+.part_img_box img{
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
