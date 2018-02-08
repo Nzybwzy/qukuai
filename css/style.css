@@ -135,3 +135,11 @@ html {overflow-y: scroll;}
     padding-right: 15px;
 
 }
+
+
+.clear{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
