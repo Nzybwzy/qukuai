@@ -25,7 +25,7 @@
     margin: 25px auto 15px 10px;
 }
 .text{
-    color: #fff;
+    color: #a3bbf5;
     width: 50px;
     margin: 0 0 0 10px;
     border-top: 1px solid #fff;
@@ -39,7 +39,7 @@
 .tabright a{
     padding: 0 10px;
     font-size: 14px;
-    color: #999;
+    color: #9FA0A1;
 }
 .main{
     width: 100%;
@@ -69,22 +69,26 @@
     position: absolute;
     left: 50%;
     top: 13px;
-    z-index: 999
+    z-index: 999;
+    font-weight: 700;
 }
 .swiper_desc{
+    line-height: 18px;
     width: 500px;
     margin-left: -250px;
     text-align: center;
     font-size: 12px;
-    color: #fff;
+    color: #9fa0a1;
     position: absolute;
     left: 50%;
     top: 90px;
-    z-index: 999
+    z-index: 999;
+    font-weight: 200
 }
 .zero{
     width: 1060px;
     margin: 0 auto;
+    position: relative
 }
 .z_title{
     font-size: 36px;
@@ -94,24 +98,30 @@
     width: 220px;
     color: #fff;
     text-align: center;
-    position: relative
+    position: relative;
+    font-weight: 900;
 }
-.z_title:after{
+.zero:after{
     content: "";
     position: absolute;
     left: -100%;
-    bottom: 0;
+    top: 48px;
     width: 100%;
     border-bottom: 2px solid #1956E6
 }
 .z_head{
     font-size: 36px;
     margin: 30px 0 25px 0;
+    line-height: 50px;
+    font-weight: 900;
+    color: #000;
 }
 .z_desc{
     font-size: 22px;
     line-height: 36px;
     margin-bottom: 45px;
+    font-weight: 200;
+    color: #3d3d3d;
 }
 .z_video{
     height: 600px;
@@ -151,16 +161,19 @@
     position: absolute;
     top: -50px;
     left: 125px;
+    font-weight: 900;
 }
 .o_desc{
     position: absolute;
     width: 616px;
     font-size: 22px;
-    line-height: 32px;
+    line-height: 36px;
     top: 78px;
     left: 50%;
     margin-left: -313px;
     text-align: center;
+    font-weight: 200;
+    color: #3d3d3d;
 }
 .o_info{
     position: absolute;
@@ -171,6 +184,8 @@
     left: 50%;
     margin-left: -313px;
     text-align: center;
+    font-weight: 900;
+    color: #000;
 }
 .o_box{
     width: 700px;
@@ -196,13 +211,18 @@
     bottom: 70px;
     padding-left: 20px;
     font-size: 14px;
+    color: #0f1113;
+    font-weight: 900
 }
 .o_left_desc{
-    padding: 20px;
+    padding: 8px 20px 20px 20px;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: 0px;
     font-size: 12px;
+    color: #9fa0a1;
+    line-height: 16px;
+    font-weight: 200
 }
 .o_img{
     width: 100%;
@@ -233,6 +253,7 @@
     text-align: center;
     position: relative;
     z-index: 999;
+    font-weight: 900;
 }
 .t_title:after{
     content: "";
@@ -258,6 +279,8 @@
     left: 0;
     font-size: 22px;
     line-height: 36px;
+    font-weight: 200;
+    color: #3d3d3d;
 }
 .t_phone{
     width: 250px;
@@ -291,9 +314,10 @@
     text-align: center;
     /* position: relative; */
     z-index: 999;
-    margin-left: 730px;
+    margin-left: 660px;
     position: absolute;
     top: -50px;
+    font-weight: 900;
 }
 .th_title:after{
     content: "";
@@ -315,17 +339,20 @@
     height: 120px;
     display: block;
     position: absolute;
-    left: 603px;
+    left: 553px;
     top: -90px;
 }
 .th_info{
     width: 550px;
     position: absolute;
-    left: 530px;
-    top: 95px;
+    left: 560px;
+    top: 110px;
     font-size: 22px;
-    line-height: 28px;
-    text-align: center
+    line-height: 36px;
+    text-align: center;
+    font-weight: 200;
+    color: #3d3d3d;
+
 }
 
 
@@ -356,6 +383,7 @@
     position: relative;
     z-index: 999;
     margin-left: 123px;
+    font-weight: 900;
 }
 .f_title:after{
     content: "";
@@ -382,10 +410,12 @@
     left: 0;
     font-size: 22px;
     line-height: 36px;
+    font-weight: 200;
+    color: #3d3d3d;
 }
 .f_phone{
     width: 420px;
-    height: 420px;
+    height: 426px;
     position: absolute;
     left: 600px;
     top: 200px;
@@ -414,6 +444,7 @@
     position: relative;
     z-index: 999;
     margin-left: 653px;
+    font-weight: 900;
 }
 .five_title:after{
     content: "";
@@ -461,4 +492,13 @@
     float: left;
     border-radius: 100%;
     margin-right: 42px;
+}
+.th_info_title{
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 740px;
+    top: 95px;
 }

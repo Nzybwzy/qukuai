@@ -23,7 +23,7 @@
   font-weight: normal;
   font-style: normal; }
   .vjs-icon-play:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-play-control .vjs-icon-placeholder:before {
-    content: "\f101"; }
+    content: "\f101";font-size: 1.7em; }
 
 .vjs-icon-play-circle {
   font-family: VideoJS;
@@ -375,9 +375,9 @@ body.vjs-full-window {
   margin-left: -.8em;
   margin-top: -.8em;
   font-size: 3em;
-  line-height: 1.5em;
-  height: 1.5em;
-  width: 1.5em;
+  line-height: 2.8em;
+  height: 3em;
+  width: 3em;
   display: block;
   position: absolute;
   top: 50%;
@@ -655,7 +655,7 @@ body.vjs-full-window {
   flex: none; }
 
 .vjs-button > .vjs-icon-placeholder:before {
-  font-size: 1.8em;
+  font-size: 3.6em;
   line-height: 1.67; }
 
 .video-js .vjs-control:focus:before,
