@@ -133,13 +133,21 @@ html {overflow-y: scroll;}
 .footer_bottom_right li{
     display: inline-block;
     padding-right: 15px;
-
 }
-
+footer_bottom_right li a img{
+    height: 20px;
+    width: auto;
+    display: block;
+}
 
 .clear{
     width: 0;
     height: 0;
     overflow: hidden;
     clear: both;
+}
+.imgs{
+    height: 20px;
+    width: auto;
+    display: block;
 }

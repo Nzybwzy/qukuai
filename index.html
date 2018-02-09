@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CDC</title>
-    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <!-- <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/videojs.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/swiper-4.1.0.min.css">
@@ -23,7 +24,7 @@
         <div class="header">
             <div class="tab">
                 <div class="tableft">
-                    <img class="logo_web" src="./image/301517818040.png" alt="">
+                    <img class="logo_web" src="./image/301517818040_.pic@3x.png" alt="">
                     <p class="text">
                         變費為寶
                         <br /> 全球共享
@@ -38,7 +39,7 @@
                     <a href="./devFastNewsList.html">開發快訊</a>
                     <a href="./disclaimer.html">免責聲明</a>
                     <a href="./contactUs.html">聯繫我們</a>
-                    <select name="" id="">
+                    <select name="" id="select">
                         <option value="TW">TW</option>
                         <option value="EN">EN</option>
                         <option value="JP">JP</option>
@@ -77,11 +78,13 @@
                     <div class="z_title">消費鏈-CDC</div>
                     <div class="z_head">去中心化的全球消費數據資產交易的
                         <br>公共區塊鏈生態平臺</div>
-                    <div class="z_desc">用於解決消費者和商家消費數據的賬單價值動態評估、交易、使用、價值轉換以及廣告營銷推廣等問題。 CDC是這個網絡上面的基礎資產，是壹個加密的貨幣項目，而且是完全開源的。 與此同時，CDC正在開發壹個智能合約平臺。
-                        它是全球第壹個以智能區塊鏈為研究基礎的去中心化消費數據分析的廣告營銷平臺。
+                    <div class="z_desc">用於解決消費者和商家消費數據的賬單價值動態評估、交易、使用、價值轉換以及廣告營銷推廣等問題。<br>
+                         CDC是這個網絡上面的基礎資產，是壹個加密的貨幣項目，而且是完全開源的。 <br>
+                         與此同時，CDC正在開發壹個智能合約平臺。<br>
+                        它是全球第壹個以智能區塊鏈為研究基礎的去中心化消費數據分析的廣告營銷平臺。<br>
                     </div>
                     <div class="z_video">
-                        <video id="my-video" class="video-js" controls preload="auto" width="1060" height="600" data-setup="{}">
+                        <video id="my-video" class="video-js" controls preload="auto" width="1060" height="600" poster="./image/ssss.png" data-setup="{}">
                             <source src="./video/CDC.mp4" type='video/mp4'>
                             <p class="vjs-no-js">
                                 To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -92,7 +95,7 @@
                 </div>
                 <div class="one">
                     <div class="in_one">
-                        <img class="no1" src="./image/01.png" alt="">
+                        <img class="no1" src="./image/01@3x.png" alt="">
                         <div class="o_title">
                             中心化的數據存儲模式
                         </div>
@@ -105,12 +108,12 @@
                         <div class="o_info">兩大核心模式</div>
                         <div class="o_box">
                             <div class="o_img_box left">
-                                <img class="o_img" src="./image/Group 6.png" alt="">
+                                <img class="o_img" src="./image/Group 6@3x.png" alt="">
                                 <div class="o_left_info">信用機制</div>
                                 <div class="o_left_desc">通過用戶數據更新的頻次與完整度，被查詢和使用的次數記錄，獲取用戶的數據信用積分。</div>
                             </div>
                             <div class="o_img_box right">
-                                <img class="o_img" src="./image/Group 5.png" alt="">
+                                <img class="o_img" src="./image/Group 5@3x.png" alt="">
                                 <div class="o_left_info">雙向匿名</div>
                                 <div class="o_left_desc">對每個參與數據交易的成員在區塊鏈上實行雙向完全匿名記賬，可以配置是否需要匿名記賬，徹底保護交易雙方的隱私。</div>
                             </div>
@@ -120,7 +123,7 @@
                 <div class="two">
                     <div class="in_two">
                         <div class="t_title">面向移动端策略</div>
-                        <img class="no2" src="./image/02.png" alt="">
+                        <img class="no2" src="./image/02@3x.png" alt="">
                         <div class="t_info">
                             消費鏈CDC致力於通過去中心化的設計，
                             <br> 讓生態內的用戶持有基於區塊鏈的智能合約代幣方式，
@@ -131,13 +134,13 @@
                             <br> 保護交易雙方隱私，實時同步更新數據。
                             <br>
                         </div>
-                        <img class="t_phone" src="./image/phone.png" alt="">
+                        <img class="t_phone" src="./image/sssss.png" alt="">
                     </div>
                 </div>
                 <div class="three">
                     <div class="in_three">
                         <div class="th_title">账户抽象层</div>
-                        <img class="no3" src="./image/03.png" alt="">
+                        <img class="no3" src="./image/03@3x.png" alt="">
                         <div class="th_info">
                             消費鏈CDC認為
                             <br> 每一筆消費實際上都對應著某種形式的賬單，
@@ -152,10 +155,20 @@
                 <div class="four">
                     <div class="in_four">
                         <div class="f_title">跨平台及向前兼容</div>
-                        <img class="no4" src="./image/04.png" alt="">
+                        <img class="no4" src="./image/04@3x.png" alt="">
                         <div class="f_info">
-                            CDC平台下設立專屬基金會，作為消費鏈CDC的技術研發及產品運營方。 CDC基金會是圍繞CDC幣生態而運營的「典型」組織之一；也會自己孵化運營優質的消費數據資產， 相當於優質消費數據商家的運營公司也會自己創造消費數據；會建立第一個基於CDC的運營公司以示範給生態未來的參與者。
-                            CDC基金會和其他組織一樣，在整個生態體系里，擁有同樣的權利和責任。 CDC基金會跟全球一線的餐飲娛樂、交通出行、文化體育、健康教育等公司合作，為它們的消費數據資產提供基於消費鏈CDC的點對點運營服務。
+                            CDC平台下設立專屬基金會，作為消費鏈CDC的技<br>
+                            術研發及產品運營方。 <br>
+                            CDC基金會是圍繞CDC幣生態而運營的「典型」組<br>
+                            織之一；也會自己孵化運營優質的消費數據資產，<br>
+                             相當於優質消費數據商家的運營公司也會自己創造<br>
+                             消費數據；會建立第一個基於CDC的運營公司以示<br>
+                             範給生態未來的參與者。<br>
+                            CDC基金會和其他組織一樣，在整個生態體系里，<br>
+                            擁有同樣的權利和責任。 
+                            <br>CDC基金會跟全球一線的餐飲娛樂、交通出行、文<br>
+                            化體育、健康教育等公司合作，為它們的消費數據<br>
+                            資產提供基於消費鏈CDC的點對點運營服務。
                         </div>
                         <img class="f_phone" src="./image/Group 27.png" alt="">
                     </div>
@@ -164,7 +177,7 @@
                     <div class="in_five">
                         <div class="five_title">合作生态伙伴</div>
                         <div class="five_line"></div>
-                        <img class="no5" src="./image/05.png" alt="">
+                        <img class="no5" src="./image/05@3x.png" alt="">
                         <div class="part_img_box">
                             <img src="./image/logo_web_kfc.png" alt="">
                             <img src="./image/logo_web_mdl.png" alt="">
@@ -189,23 +202,23 @@
             </div>
             <div class="footer_bottom">
                 <div class="footer_bottom_left">
-                    <img src="./image/logo_web_021.png" alt="">
+                    <img src="./image/logo_web_02@3x.png" alt="">
                     <span>COPYRIGHT © 2018 CDC Foundation. </span>
                 </div>
                 <ul class="footer_bottom_right">
                     <li><a href="javascript:void(0)">
-                        <img src="./image/Combined Shape.png" alt="">
+                        <img class="imgs" src="./image/13.png" alt="">
                     </a>
                     </li>
                     <li><a href="javascript:void(0)">
-                        <img src="./image/CombinedwShape.png" alt="">
+                        <img class="imgs" src="./image/23.png" alt="">
                     </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="./image/Fill1.png" alt=""></a>
+                        <a href="javascript:void(0)"><img class="imgs" src="./image/33.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="./image/Fill2edws.png" alt=""></a>
+                        <a href="javascript:void(0)"><img class="imgs" src="./image/43.png" alt=""></a>
                     </li>
                 </ul>
             </div>
