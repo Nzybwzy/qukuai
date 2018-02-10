@@ -30,13 +30,24 @@
                     <a href="./devFastNewsList.html">開發快訊</a>
                     <a id="act" href="./disclaimer.html">免責聲明</a>
                     <a href="./contactUs.html">聯繫我們</a>
-                    <select name="" id="">
+                   <!-- <select name="" id="">
                         <option value="TW">TW</option>
                         <option value="EN">EN</option>
                         <option value="JP">JP</option>
                         <option value="KR">KR</option>
-                    </select>
+                    </select> -->
                 </div>
+                <div class="button custom-select">
+                        <div class="custom-select_header" id="custom-select_header">
+                            TW
+                        </div>
+                        <ul class="custom-select_content" id="custom-select_content">
+                            <li>TW</li>
+                            <li>EN</li>
+                            <li>JP</li>
+                            <li>KR</li>
+                        </ul>
+                    </div>
             </div>
         </div>
         <div class="main">
@@ -104,5 +115,23 @@
         </div>
     </div>
 </body>
+<script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+<script>
+    $("#custom-select_header").on('click', function (params) {
+            $(this).toggleClass("custom-select_header-active");
+            $(this).parent().toggleClass("custom-select_active");
+            if ($(this).hasClass('custom-select_header-active')) {
+                $(this).siblings().animate({ height: '88px' }, 300, 'linear');
+            } else {
+                $(this).siblings().animate({ height: 0 }, 300, 'linear');
+            }
 
+        });
+        $("#custom-select_content li").on('click', function () {
+            $("#custom-select_header").text($(this).text());
+            $(this).parent().animate({ height: 0 }, 300, 'linear');
+            $("#custom-select_header").removeClass("custom-select_header-active");
+            $(this).parent().parent().removeClass('custom-select_active');
+        });
+</script>
 </html>
