@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/swiper-4.1.0.min.css">
+
 </head>
 <style>
     .swiper-container {
@@ -24,57 +25,60 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="tab">
-                <div class="tableft">
-                    <img class="logo_web" src="./image/301517818040_.pic@3x.png" alt="">
-                    <p class="text">
-                        變費為寶
-                        <br /> 全球共享
-                    </p>
-                </div>
-                <div class="tabright">
-                    <a id="actb" href="./index.html">首頁</a>
-                    <a href="./partner.html">戰略合作夥伴</a>
-                    <a href="./team.html">團隊介紹</a>
-                    <a href="./whitePaper.html">CDC白皮書</a>
-                    <a href="http://f.cdcf.io" target="_Blank">開發者论坛</a>
-                    <a href="./devFastNewsList.html">開發快訊</a>
-                    <a href="./disclaimer.html">免責聲明</a>
-                    <a href="./contactUs.html">聯繫我們</a>
-                    <select name="" id="select">
-                        <option value="TW">TW</option>
-                        <option value="EN">EN</option>
-                        <option value="JP">JP</option>
-                        <option value="KR">KR</option>
-                    </select>
-                </div>
-            </div>
+        <div style="background: #14052c">
+                <div class="header">
+                        <div class="tab">
+                            <div class="tableft">
+                                <img class="logo_web" src="./image/301517818040_.pic@3x.png" alt="">
+                                <p class="text">
+                                    變費為寶
+                                    <br /> 全球共享
+                                </p>
+                            </div>
+                            <div class="tabright">
+                                <a id="actb" href="./index.html">首頁</a>
+                                <a href="./partner.html">戰略合作夥伴</a>
+                                <a href="./team.html">團隊介紹</a>
+                                <a href="./whitePaper.html">CDC白皮書</a>
+                                <a href="http://f.cdcf.io" target="_Blank">開發者论坛</a>
+                                <a href="./devFastNewsList.html">開發快訊</a>
+                                <a href="./disclaimer.html">免責聲明</a>
+                                <a href="./contactUs.html">聯繫我們</a>
+                                <!-- <select name="" id="select">
+                                    <option value="TW">TW</option>
+                                    <option value="EN">EN</option>
+                                    <option value="JP">JP</option>
+                                    <option value="KR">KR</option>
+                                </select> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper_box">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img style="display: block" src="./image/1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img style="display: block" src="./image/1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img style="display: block" src="./image/1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper_title">
+                            讓天下消費數據鏈接起來
+                            <br>重塑全球廣告營銷網絡
+                        </div>
+                        <div class="swiper_desc">
+                            消費的基礎形式呈現為記賬；
+                            <br>但信息雜亂，沒有形成統壹的個人消費數據資產。
+                        </div>
+                    </div>
         </div>
-        <div class="swiper_box">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./image/pic_contact_banners.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./image/pic_contact_banners.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./image/pic_contact_banners.png" alt="">
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="swiper_title">
-                讓天下消費數據鏈接起來
-                <br>重塑全球廣告營銷網絡
-            </div>
-            <div class="swiper_desc">
-                消費的基礎形式呈現為記賬；
-                <br>但信息雜亂，沒有形成統壹的個人消費數據資產。
-            </div>
-        </div>
+        
         <div class="main">
             <div class="contents">
                     <div class="z_xian"></div>
@@ -231,6 +235,7 @@
     </div>
     </div>
     <script src="./js/swiper-4.1.0.min.js"></script>
+    <script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
     <script>   
 
         var mySwiper = new Swiper('.swiper-container', {
@@ -239,7 +244,7 @@
                 el: '.swiper-pagination',
             }
         })
-
+        
     </script>
 </body>
 <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>

@@ -35,7 +35,7 @@
     color: #fff;
     line-height: 30px;
     position: relative;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 14px;
 }
 .team_tit_icom:after{
@@ -49,7 +49,7 @@
 }
 .team_item{
     width: 200px;
-    height: 340px;
+    height: 360px;
     float: left;
     display: inline-block;
     margin-top: 40px;
@@ -71,9 +71,12 @@
 .item_p_info{
     font-size: 14px;
     line-height: 26px;
-    height: 90px;
+    /* height: 90px; */
     color: #9fa0a1;
     /* width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; */
-    overflow-y: auto;
+    /* overflow-y: auto; */
     font-weight: 200;
+}
+.pdb{
+    padding-bottom: 100px;
 }

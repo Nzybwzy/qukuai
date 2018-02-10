@@ -165,7 +165,7 @@
 }
 .o_desc{
     position: absolute;
-    width: 616px;
+    width: 670px;
     font-size: 22px;
     line-height: 36px;
     top: 78px;
@@ -177,7 +177,7 @@
 }
 .o_info{
     position: absolute;
-    width: 616px;
+    width: 670px;
     font-size: 24px;
     line-height: 32px;
     top: 286px;
@@ -208,17 +208,17 @@
 .o_left_info{
     position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 65px;
     padding-left: 20px;
     font-size: 14px;
     color: #0f1113;
     font-weight: 900
 }
 .o_left_desc{
-    padding: 8px 20px 20px 20px;
+    padding: 8px 28px 20px 20px;
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: -5px;
     font-size: 12px;
     color: #9fa0a1;
     line-height: 16px;
@@ -300,7 +300,7 @@
 .in_three{
     width: 1060px;
     margin: 0 auto;
-    height: 370px;
+    height: 405px;
     position: relative;
     
 }

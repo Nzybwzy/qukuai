@@ -655,7 +655,7 @@ body.vjs-full-window {
   flex: none; }
 
 .vjs-button > .vjs-icon-placeholder:before {
-  font-size: 3.6em;
+  font-size: 3em;
   line-height: 1.67; }
 
 .video-js .vjs-control:focus:before,
