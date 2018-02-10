@@ -128,6 +128,7 @@
     $("#custom-select_header").on('click', function (params) {
             $(this).toggleClass("custom-select_header-active");
             $(this).parent().toggleClass("custom-select_active");
+            $(this).siblings().toggleClass('custom-select_content-active');
             if ($(this).hasClass('custom-select_header-active')) {
                 $(this).siblings().animate({ height: '88px' }, 300, 'linear');
             } else {

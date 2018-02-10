@@ -113,12 +113,13 @@
                     </div>
                 </div>
                 <div class="one">
-                    <div class="o_1"></div>
-                    <div class="o_2"></div>
-                    <div class="o_3"></div>
+                    
                     <div class="in_one">
                         <img class="no1" src="./image/01@3x.png" alt="">
                         <div class="o_title">
+                                <div class="o_1"></div>
+                                <div class="o_2"></div>
+                                <div class="o_3"></div>
                             中心化的數據存儲模式
                         </div>
                         <div class="o_desc">
@@ -272,17 +273,19 @@
         })
         $("#custom-select_header").on('click', function (params) {
             $(this).toggleClass("custom-select_header-active");
+            $(this).siblings().toggleClass('custom-select_content-active');
             $(this).parent().toggleClass("custom-select_active");
             if ($(this).hasClass('custom-select_header-active')) {
-                $(this).siblings().animate({ height: '88px' }, 300, 'linear');
+                $(this).siblings().animate({ height: '88px' }, 100, 'linear');
+                // $(this).siblings().animate({ height: '88px' }, 300, 'linear');                
             } else {
-                $(this).siblings().animate({ height: 0 }, 300, 'linear');
+                $(this).siblings().animate({ height: 0 }, 100, 'linear');
             }
 
         });
         $("#custom-select_content li").on('click', function () {
             $("#custom-select_header").text($(this).text());
-            $(this).parent().animate({ height: 0 }, 300, 'linear');
+            $(this).parent().animate({ height: 0 }, 100, 'linear');
             $("#custom-select_header").removeClass("custom-select_header-active");
             $(this).parent().parent().removeClass('custom-select_active');
         });
