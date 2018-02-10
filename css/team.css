@@ -2,22 +2,25 @@
     font-size: 24px;
     border-bottom: #e6e6e6 2px solid;
     position: relative;
-    padding-bottom: 5px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #3d3d3d;
 }
 .title:after{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -2px;
     width: 60px;
-    height: 3px;
+    height: 6px;
     background: #1956E6;
 }
 .team_info{
     font-size: 16px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 40px;
+    color: #3d3d3d;
 }
 .team_box{
     background: #fff;
@@ -32,6 +35,8 @@
     color: #fff;
     line-height: 30px;
     position: relative;
+    font-weight: 900;
+    font-size: 14px;
 }
 .team_tit_icom:after{
     content: "";
@@ -59,12 +64,16 @@
 }
 .item_name{
     font-size: 18px;
-    padding: 20px 0 ;
+    padding: 20px 0 8px 0 ;
+    font-weight: 900;
+    color: #3d3d3d;
 }
 .item_p_info{
     font-size: 14px;
-    line-height: 28px;
+    line-height: 26px;
     height: 90px;
+    color: #9fa0a1;
     /* width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; */
-    overflow-y: auto
+    overflow-y: auto;
+    font-weight: 200;
 }

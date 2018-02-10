@@ -2,16 +2,18 @@
     font-size: 24px;
     border-bottom: #e6e6e6 2px solid;
     position: relative;
-    padding-bottom: 5px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #3d3d3d;
 }
 .title:after{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -2px;
     width: 60px;
-    height: 3px;
+    height: 6px;
     background: #1956E6;
 }
 .white_detail_text{
@@ -21,15 +23,29 @@
 .white_detail_text h1{
     font-size: 32px;
     padding-bottom: 5px;
+    font-weight: 200;
+    color: #3d3d3d;
 }
 .white_detail_version{
     font-size: 18px;
+    font-weight: 200;
+    color: #3d3d3d;
+    
+}
+.white_detail_version span{
+    font-weight: 900;
+}
+.bor{
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 32px;line-height: 60px;
 }
 .white_detail_time{
     font-size: 18px;
     line-height: 60px;
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 32px;
+    font-weight: 200;
+    color: #9fa0a1;
 }
 .white_detail_btn{
     color: #fff;
@@ -42,4 +58,5 @@
     margin-bottom: 10px;
     z-index: 999;
     font-size: 12px;
+    font-weight: 900;
 }

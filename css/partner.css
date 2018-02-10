@@ -2,16 +2,18 @@
     font-size: 24px;
     border-bottom: #e6e6e6 2px solid;
     position: relative;
-    padding-bottom: 5px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #3d3d3d;
 }
 .title:after{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -2px;
     width: 60px;
-    height: 3px;
+    height: 6px;
     background: #1956E6;
 }
 .titlemar{
@@ -19,8 +21,9 @@
 }
 .part_info{
     font-size: 16px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 40px;
+    color: #3d3d3d;
 }
 .part_img_box{
     height: 120px;
