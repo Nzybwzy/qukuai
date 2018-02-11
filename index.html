@@ -271,24 +271,23 @@
                 el: '.swiper-pagination',
             }
         })
-        $("#custom-select_header").on('click', function (params) {
-            $(this).toggleClass("custom-select_header-active");
-            $(this).siblings().toggleClass('custom-select_content-active');
-            $(this).parent().toggleClass("custom-select_active");
-            if ($(this).hasClass('custom-select_header-active')) {
-                $(this).siblings().animate({ height: '88px' }, 100, 'linear');
-                // $(this).siblings().animate({ height: '88px' }, 300, 'linear');                
-            } else {
-                $(this).siblings().animate({ height: 0 }, 100, 'linear');
-            }
+        // $("#custom-select_header").on('click', function (params) {
+        //     $(this).toggleClass("custom-select_header-active");
+        //     $(this).siblings().toggleClass('custom-select_content-active');
+        //     $(this).parent().toggleClass("custom-select_active");
+        //     if ($(this).hasClass('custom-select_header-active')) {
+        //         $(this).siblings().animate({ height: '88px' }, 100, 'linear');
+        //     } else {
+        //         $(this).siblings().animate({ height: 0 }, 100, 'linear');
+        //     }
 
-        });
-        $("#custom-select_content li").on('click', function () {
-            $("#custom-select_header").text($(this).text());
-            $(this).parent().animate({ height: 0 }, 100, 'linear');
-            $("#custom-select_header").removeClass("custom-select_header-active");
-            $(this).parent().parent().removeClass('custom-select_active');
-        });
+        // });
+        // $("#custom-select_content li").on('click', function () {
+        //     $("#custom-select_header").text($(this).text());
+        //     $(this).parent().animate({ height: 0 }, 100, 'linear');
+        //     $("#custom-select_header").removeClass("custom-select_header-active");
+        //     $(this).parent().parent().removeClass('custom-select_active');
+        // });
     </script>
 </body>
 <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
