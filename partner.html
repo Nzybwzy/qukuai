@@ -136,9 +136,12 @@
         system.win = p.indexOf("Win") == 0;  
         system.mac = p.indexOf("Mac") == 0;  
         system.xll = (p == "X11") || (p.indexOf("Linux") == 0);  
+        alert(p)
         //跳转语句，如果是手机访问就自动跳转到m.yijile.com页面  
         if(system.win||system.mac||system.xll){  
+            alert(1)
         }else{  
+            alert(2)
         window.location.href="http://m.cdcf.io/";  
         }  
         </script>
