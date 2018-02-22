@@ -124,5 +124,23 @@
     </div>
 </body>
 <script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+<script language="javascript"> 
+        //平台、设备和操作系统  
+        var system ={  
+        win : false,  
+        mac : false,  
+        xll : false  
+        };  
+        //检测平台  
+        var p = navigator.platform;  
+        system.win = p.indexOf("Win") == 0;  
+        system.mac = p.indexOf("Mac") == 0;  
+        system.xll = (p == "X11") || (p.indexOf("Linux") == 0);  
+        //跳转语句，如果是手机访问就自动跳转到m.yijile.com页面  
+        if(system.win||system.mac||system.xll){  
+        }else{  
+        window.location.href="http://m.cdcf.io/";  
+        }  
+        </script>
 <!-- <script src="./js/drop.js"></script> -->
 </html>
