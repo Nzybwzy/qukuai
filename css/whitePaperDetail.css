@@ -60,3 +60,19 @@
     font-size: 12px;
     font-weight: 900;
 }
+.white_list_btn{
+    color: #fff;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #1956E6;
+    cursor: pointer;
+    margin-bottom: 10px;
+    z-index: 999;
+    font-size: 12px;
+    font-weight: 900;
+}
+.white_list_btn a{
+    color: #fff;
+}
