@@ -22,7 +22,24 @@
         height: 320px;
     }
 </style>
-
+<script>
+    //平台、设备和操作系统  
+    var system ={  
+        win : false,  
+        mac : false,  
+        xll : false  
+        };  
+        //检测平台  
+        var p = navigator.platform;  
+        system.win = p.indexOf("Win") == 0;  
+        system.mac = p.indexOf("Mac") == 0;  
+        system.xll = (p == "X11") || (p.indexOf("Linux") == 0);  
+        //跳转语句，如果是手机访问就自动跳转到m.yijile.com页面  
+        if(system.win||system.mac){  
+        }else{  
+        window.location.href="http://m.cdcf.io/";  
+        }  
+</script>
 <body>
     <div class="wrapper">
         <div style="background: #14052c">
@@ -278,22 +295,22 @@
                 el: '.swiper-pagination',
             }
         })
-        //平台、设备和操作系统  
-        var system ={  
-        win : false,  
-        mac : false,  
-        xll : false  
-        };  
-        //检测平台  
-        var p = navigator.platform;  
-        system.win = p.indexOf("Win") == 0;  
-        system.mac = p.indexOf("Mac") == 0;  
-        system.xll = (p == "X11") || (p.indexOf("Linux") == 0);  
-        //跳转语句，如果是手机访问就自动跳转到m.yijile.com页面  
-        if(system.win||system.mac){  
-        }else{  
-        window.location.href="http://m.cdcf.io/";  
-        }  
+        // //平台、设备和操作系统  
+        // var system ={  
+        // win : false,  
+        // mac : false,  
+        // xll : false  
+        // };  
+        // //检测平台  
+        // var p = navigator.platform;  
+        // system.win = p.indexOf("Win") == 0;  
+        // system.mac = p.indexOf("Mac") == 0;  
+        // system.xll = (p == "X11") || (p.indexOf("Linux") == 0);  
+        // //跳转语句，如果是手机访问就自动跳转到m.yijile.com页面  
+        // if(system.win||system.mac){  
+        // }else{  
+        // window.location.href="http://m.cdcf.io/";  
+        // }  
         // $("#custom-select_header").on('click', function (params) {
         //     $(this).toggleClass("custom-select_header-active");
         //     $(this).siblings().toggleClass('custom-select_content-active');
